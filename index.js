@@ -46,5 +46,5 @@ function monthName(month) {
 function memex(meme) {
   const memexs = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
   ]
-  return memes[meme - 1]
+  return memexs[meme - 1]
 }
