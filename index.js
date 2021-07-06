@@ -20,8 +20,8 @@ app.get('/', function(req, res) {
 
 app.get('/api/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
-  const data = {
-    'name': memex(meme),
+const data = {
+    'name': person.name,
     'attributes': {
       'song': monthName(month),
       // 'age': moment().diff(person.birthday, 'years')
