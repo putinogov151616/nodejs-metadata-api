@@ -49,7 +49,7 @@ function zodiac(day, month) {
 }
 
 function monthName(month) {
-  const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+  const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", "M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza","M. M. Vadar", "Darth Hearth", "The Ca", "Darth Garth", "Fapper Fonz", "Big Rover", "Mendoza Spinoza",
   ]
   return monthNames[month - 1]
 }
