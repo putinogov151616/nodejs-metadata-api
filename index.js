@@ -24,7 +24,7 @@ app.get('/api/token/:token_id', function(req, res) {
   const bdayParts = person.birthday.split(' ')
   const day = parseInt(bdayParts[1])
   const month = parseInt(bdayParts[0])
-  const meme = parseInt()
+  const meme = parseInt(req.params.token_id).toString()
   const data = {
     'name': memeName(meme),
     'attributes': {
