@@ -27,9 +27,9 @@ app.get('/api/token/:token_id', function(req, res) {
   const data = {
     'name': person.name,
     'attributes': {
-      'birthday': person.birthday,
-      'birth month': monthName(month),
-      'zodiac sign': zodiac(day, month),
+      'brahh': person.birthday,
+      'heee': monthName(month),
+      'whaa': zodiac(day, month),
       // 'age': moment().diff(person.birthday, 'years')
     },
     'image': `${HOST}/images/${tokenId}.png`
