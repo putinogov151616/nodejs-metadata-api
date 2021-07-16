@@ -1,4 +1,4 @@
-const HOST = 'https://nodejsmetadatacntest.herokuapp.com/api'
+const HOST = 'https://nodejsmetadatacntest.herokuapp.com/'
 
 module.exports = {
   HOST
