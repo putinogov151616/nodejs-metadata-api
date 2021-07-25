@@ -44,7 +44,7 @@ app.listen(app.get('port'), function() {
 function namName(nam) {
   const namNames = ["CryptoN #1", "CryptoN #2", "CryptoN #3", "CryptoN #4", "CryptoN #5", "CryptoN #6", "CryptoN #7", "CryptoN #8", "CryptoN #9", "CryptoN #10", "CryptoN #11", "CryptoN #12", "CryptoN #13", "CryptoN #14", "CryptoN #15", "CryptoN #16", "CryptoN #17", "CryptoN #18", "CryptoN #19", "CryptoN #20", "CryptoN #21", "CryptoN #22", "CryptoN #23"
   ]
-  return nameNames[nam - 1]
+  return namNames[nam - 1]
 }
 
 function typeName(type) {
