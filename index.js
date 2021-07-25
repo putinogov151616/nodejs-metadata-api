@@ -58,15 +58,3 @@ function sauceName(sauce) {
   ]
   return sauceNames[sauce - 1]
 }
-
-function saucecupName(saucecup) {
-  const saucecupNames = ["", "gradient", "punkdonalds", "striped", "KFC", "burger king", "", "mcdonalds", "biohazard", "gradient", "kFC", "burger king", "striped", "kFC", "gradient", "gradient", "", "noname", "mcdonalds", "biohazard", "punkdonalds", "", "mcdonalds"
-  ]
-  return saucecupNames[saucecup - 1]
-}
-
-function toothpickName(toothpick) {
-  const toothpickNames = ["", "", "wood", "", "", "", "wood", "", "wood", "", "", "wood", "", "", "wood", "", "", "", "", "", "", "", "",
-  ]
-  return toothpickNames[toothpick - 1]
-}
