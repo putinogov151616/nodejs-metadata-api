@@ -23,12 +23,14 @@ app.get('/api/token/:token_id', function(req, res) {
   const type = parseInt(req.params.token_id).toString()
   const face = parseInt(req.params.token_id).toString()
   const sauce = parseInt(req.params.token_id).toString()
+  const saucecup = parseInt(req.params.token_id).toString()
   const data = {
     'name': namName(nam),
     'attributes': {
       'type': typeName(type),
       'face': faceName(face),
       'sauce': sauceName(sauce),
+      'sauce cup': saucecupName(saucecup),
     },
     'image': `${HOST}/images/${tokenId}.png`
   }
@@ -63,4 +65,10 @@ function sauceName(sauce) {
   const sauceNames = ["novichok", "mustard", "chili", "novichok", "sweet n sour", "BBQ", "ketchup", "ketchup", "novichok", "ranch", "vegan", "chili", "ranch", "ranch", "ketchup", "vegan", "sweet n sour", "novichok", "vegan", "bBQ", "sweet n sour", "bBQ", "ketchup"
   ]
   return sauceNames[sauce - 1]
+}
+
+function saucecupName(saucecup) {
+  const saucecupNames = ["", "gradient", "punkdonalds", "striped", "KFC", "burger king", "", "mcdonalds", "biohazard", "gradient", "kFC", "burger king", "striped", "kFC", "gradient", "gradient", "", "noname", "mcdonalds", "biohazard", "punkdonalds", "", "mcdonalds"
+  ]
+  return saucecupNames[saucecup - 1]
 }
