@@ -27,8 +27,6 @@ app.get('/api/token/:token_id', function(req, res) {
       'type': typeName(type),
       'face': faceName(face),
       'sauce': sauceName(sauce),
-      'sauce cup': saucecupName(saucecup),
-      'toothpick': toothpickName(toothpick),
     },
     'image': `${HOST}/images/${tokenId}.png`
   }
