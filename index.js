@@ -20,7 +20,7 @@ app.get('/', function(req, res) {
 app.get('/api/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
   const type = parseInt(req.params.token_id).toString()
-  const meme = parseInt(req.params.token_id).toString()
+  const face = parseInt(req.params.token_id).toString()
   const sauce = parseInt(req.params.token_id).toString()
   const data = {
     'name': typeName(type),
