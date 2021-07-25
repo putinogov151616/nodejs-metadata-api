@@ -19,11 +19,12 @@ app.get('/', function(req, res) {
 
 app.get('/api/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
+  const nam = parseInt(req.params.token_id).toString()
   const type = parseInt(req.params.token_id).toString()
   const face = parseInt(req.params.token_id).toString()
   const sauce = parseInt(req.params.token_id).toString()
   const data = {
-    'name': typeName(type),
+    'name': namName(nam),
     'attributes': {
       'type': typeName(type),
       'face': faceName(face),
@@ -39,6 +40,12 @@ app.listen(app.get('port'), function() {
 })
 
 // returns the zodiac sign according to day and month ( https://coursesweb.net/javascript/zodiac-signs_cs )
+
+function namName(nam) {
+  const namNames = ["CryptoN #1", "CryptoN #2", "CryptoN #3", "CryptoN #4", "CryptoN #5", "CryptoN #6", "CryptoN #7", "CryptoN #8", "CryptoN #9", "CryptoN #10", "CryptoN #11", "CryptoN #12", "CryptoN #13", "CryptoN #14", "CryptoN #15", "CryptoN #16", "CryptoN #17", "CryptoN #18", "CryptoN #19", "CryptoN #20", "CryptoN #21", "CryptoN #22", "CryptoN #23"
+  ]
+  return nameNames[nam - 1]
+}
 
 function typeName(type) {
   const typeNames = ["chicken", "beef", "vegan", "chicken", "chicken", "chicken", "fish", "salmon", "synthetic", "fish", "chicken", "fish", "burned", "beef", "radioactive", "chicken", "pork", "fish", "radioactive", "pork", "chicken", "beef", "synthetic"
