@@ -46,37 +46,37 @@ app.listen(app.get('port'), function() {
 // returns the zodiac sign according to day and month ( https://coursesweb.net/javascript/zodiac-signs_cs )
 
 function namName(nam) {
-  const namNames = ["CryptoN #1", "CryptoN #2", "CryptoN #3", "CryptoN #4", "CryptoN #5", "CryptoN #6", "CryptoN #7", "CryptoN #8", "CryptoN #9", "CryptoN #10", "CryptoN #11", "CryptoN #12", "CryptoN #13", "CryptoN #14", "CryptoN #15", "CryptoN #16", "CryptoN #17", "CryptoN #18", "CryptoN #19", "CryptoN #20", "CryptoN #21", "CryptoN #22", "CryptoN #23"
+  const namNames = ["TestFace 1", "TestFace 2", "TestFace 3", "TestFace 4", "TestFace 5", "TestFace 6", "TestFace 7", "TestFace 8", "TestFace 9", "TestFace 10", "TestFace 11", "TestFace 12", "TestFace 13", "TestFace 14", "TestFace 15", "TestFace 16", "TestFace 17", "TestFace 18", "TestFace 19", "TestFace 20", "TestFace 21", "TestFace 22", "TestFace 23", "TestFace 24"
   ]
   return namNames[nam - 1]
 }
 
 function typeName(type) {
-  const typeNames = ["chicken", "beef", "vegan", "chicken", "chicken", "chicken", "fish", "salmon", "synthetic", "fish", "chicken", "fish", "burned", "beef", "radioactive", "chicken", "pork", "fish", "radioactive", "pork", "chicken", "beef", "synthetic"
+  const typeNames = ["blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "green", "green", "green", "green", "green", "green", "green", "green", "green", "black", "black", "black", "black", "black", "black"
   ]
   return typeNames[type - 1]
 }
 
 function faceName(face) {
-  const faceNames = ["eth eyed", "crooky", "angry", "crooky", "suspicious", "eth eyed", "shilly", "suspicious", "angry", "concern", "suspicious", "shilly", "eth eyed", "salty", "shilly", "fomo", "suspicious", "salty", "btc eyed", "mean", "angry", "hodl", "fomo"
+  const faceNames = ["happy", "happy", "happy", "angry", "angry", "angry", "sad", "sad", "sad", "happy", "happy", "happy", "angry", "angry", "angry", "sad", "sad", "sad", "happy", "happy", "happy", "angry", "angry", "angry"
   ]
   return faceNames[face - 1]
 }
 
 function hairName(hair) {
-  const hairNames = ["novichok", "mustard", "chili", "novichok", "sweet n sour", "BBQ", "ketchup", "ketchup", "novichok", "ranch", "vegan", "chili", "ranch", "ranch", "ketchup", "vegan", "sweet n sour", "novichok", "vegan", "bBQ", "sweet n sour", "bBQ", "ketchup"
+  const hairNames = ["", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty"
   ]
   return hairNames[hair - 1]
 }
 
 function saucecupName(saucecup) {
-  const saucecupNames = ["", "gradient", "punkdonalds", "striped", "KFC", "burger king", "", "mcdonalds", "biohazard", "gradient", "kFC", "burger king", "striped", "kFC", "gradient", "gradient", "", "noname", "mcdonalds", "biohazard", "punkdonalds", "", "mcdonalds"
+  const saucecupNames = ["", ""
   ]
   return saucecupNames[saucecup - 1]
 }
 
 function toothpickName(toothpick) {
-  const toothpickNames = ["", "", "wood", "", "", "", "wood", "", "wood", "", "", "wood", "", "", "wood", "", "", "", "", "", "", "", "",
+  const toothpickNames = ["", ""
   ]
   return toothpickNames[toothpick - 1]
 }
