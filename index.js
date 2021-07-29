@@ -30,7 +30,7 @@ app.get('/api/token/:token_id', function(req, res) {
     'attributes': {
       'type': typeName(type),
       'face': faceName(face),
-      'hair': hairName(sauce),
+      'hair': hairName(hair),
       'sauce cup': saucecupName(saucecup),
       'toothpick': toothpickName(toothpick),
     },
