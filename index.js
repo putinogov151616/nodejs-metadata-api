@@ -22,7 +22,7 @@ app.get('/api/token/:token_id', function(req, res) {
   const nam = parseInt(req.params.token_id).toString()
   const type = parseInt(req.params.token_id).toString()
   const face = parseInt(req.params.token_id).toString()
-  const sauce = parseInt(req.params.token_id).toString()
+  const hair = parseInt(req.params.token_id).toString()
   const saucecup = parseInt(req.params.token_id).toString()
   const toothpick = parseInt(req.params.token_id).toString()
   const data = {
@@ -30,11 +30,11 @@ app.get('/api/token/:token_id', function(req, res) {
     'attributes': {
       'type': typeName(type),
       'face': faceName(face),
-      'sauce': sauceName(sauce),
+      'hair': hairName(sauce),
       'sauce cup': saucecupName(saucecup),
       'toothpick': toothpickName(toothpick),
     },
-    'image': `${HOST}/images/${tokenId}.png`
+    'image': `https://bafybeid6fk7gdxy4yovenpqc55mhc7ajsrxi4da5jckl2ykpe2bcagbkzq.ipfs.dweb.link/${tokenId}.jpg`
   }
   res.send(data)
 })
@@ -63,10 +63,10 @@ function faceName(face) {
   return faceNames[face - 1]
 }
 
-function sauceName(sauce) {
-  const sauceNames = ["novichok", "mustard", "chili", "novichok", "sweet n sour", "BBQ", "ketchup", "ketchup", "novichok", "ranch", "vegan", "chili", "ranch", "ranch", "ketchup", "vegan", "sweet n sour", "novichok", "vegan", "bBQ", "sweet n sour", "bBQ", "ketchup"
+function hairName(hair) {
+  const hairNames = ["novichok", "mustard", "chili", "novichok", "sweet n sour", "BBQ", "ketchup", "ketchup", "novichok", "ranch", "vegan", "chili", "ranch", "ranch", "ketchup", "vegan", "sweet n sour", "novichok", "vegan", "bBQ", "sweet n sour", "bBQ", "ketchup"
   ]
-  return sauceNames[sauce - 1]
+  return hairNames[hair - 1]
 }
 
 function saucecupName(saucecup) {
