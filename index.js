@@ -22,7 +22,7 @@ app.get('/api/token/:token_id', function(req, res) {
   const nam = parseInt(req.params.token_id).toString()
   const type = parseInt(req.params.token_id).toString()
   const face = parseInt(req.params.token_id).toString()
-  const hair = parseInt(req.params.token_id).toString()
+  const sauce = parseInt(req.params.token_id).toString()
   const saucecup = parseInt(req.params.token_id).toString()
   const toothpick = parseInt(req.params.token_id).toString()
   const data = {
@@ -30,7 +30,7 @@ app.get('/api/token/:token_id', function(req, res) {
     'attributes': {
       'type': typeName(type),
       'face': faceName(face),
-      'hair': hairName(hair),
+      'sauce': sauceName(sauce),
       'sauce cup': saucecupName(saucecup),
       'toothpick': toothpickName(toothpick),
     },
@@ -63,10 +63,10 @@ function faceName(face) {
   return faceNames[face - 1]
 }
 
-function hairName(hair) {
-  const hairNames = ["", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty"
+function sauceName(sauce) {
+  const sauceNames = ["", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty", "punk", "trump", "lil yahty"
   ]
-  return hairNames[hair - 1]
+  return sauceNames[sauce - 1]
 }
 
 function saucecupName(saucecup) {
