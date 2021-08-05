@@ -34,7 +34,7 @@ app.get('/api/token/:token_id', function(req, res) {
       'sauce cup': saucecupName(saucecup),
       'toothpick': toothpickName(toothpick),
     },
-    'image': `ipfs://bafybeib2lhbgeqp3526vimi3btmknk55g6wvdko7ma7aboni2nmz25crhu/${tokenId}.jpg`
+    'image': `ipfs://bafybeidinx75o5wbi5qoajf5l7sncqowy7lounoqtid4tmtumiukjxpsbe/${tokenId}.jpg`
   }
   res.send(data)
 })
